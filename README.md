@@ -5,3 +5,6 @@
 <br>
 參考：大樂透
 https://www.taiwanlottery.com.tw/lotto649/index.asp
+<br>
+未來改進方向：
+手機介面ＲＷＤ、比對頭獎～普獎等不同獎項
