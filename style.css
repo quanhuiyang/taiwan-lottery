@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Yuji+Boku&display=swap');
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Yuji Boku', serif;
+}
+
+
+.text-box .image {
+    width: 20px;
+    height: 20px;
+}
+
+.text-box p {
+    font-size: 1.5rem;
+}
+
+.num {
+    display: flex;
+}
+
+.num label {
+    width: 60px;
+    height: 60px;
+    background: #c8eac3;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+}
+
+.num input:checked+label {
+    background: #1a720d;
+    color: #FFF;
+}
+
+.num input {
+    display: none;
+}
+
+.lottery1_6 {
+    color: #1a720d;
+}
